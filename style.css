@@ -148,3 +148,17 @@ body {
     align-items: center;
     flex-direction: column-reverse;
 }
+
+@media only screen and (max-width: 450px) {
+    .header {
+        padding: 0;
+    }
+    .headerLeft a {
+        margin: 0 0 0 15px;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .number p {
+        font-size: 10px;
+    }
+  }
