@@ -14,6 +14,7 @@ body {
 
 .headerLeft {
     display: flex;
+    align-items: center;
 }
 
 .headerLeft a {
@@ -100,12 +101,11 @@ body {
 }
 
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
+    padding: 30px 0 0 0;
     background-color: #222;
     margin-top: 80px;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
@@ -126,10 +126,7 @@ body {
     text-decoration: underline;
 }
 
-.container .headerRight p {
-    color: #d4d4d4;
-    font-size: 13px;
-}
+
 .container .headerRight{
     display: flex;
     align-items: flex-end;
@@ -149,16 +146,32 @@ body {
     flex-direction: column-reverse;
 }
 
+.copyR {
+    color: #d4d4d4;
+    background-color: #222222;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 450px) {
     .header {
         padding: 0;
     }
     .headerLeft a {
-        margin: 0 0 0 15px;
+        margin: 0 0 0 10px;
         text-decoration: none;
         font-size: 10px;
+        font-weight: 500;
     }
     .number p {
+        font-size: 10px;
+    }
+    .searchIcon {
+        width: 20px;
+    }
+
+    .headerLeft .aLink {
         font-size: 10px;
     }
   }
